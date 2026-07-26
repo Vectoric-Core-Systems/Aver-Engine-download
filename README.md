@@ -1,30 +1,51 @@
-# Aver Engine - Release Binaries & Starter Template
+# Aver Engine - Core Binaries & Runtime
 
-Welcome to the public release repository for **Aver Engine**. 
+Welcome to the official precompiled binary repository for **Aver Engine**.
 
-Aver Engine is a custom, high-performance C++ game engine powered by a modern **Direct3D 12** rendering pipeline, zero-overhead memory design, and high-level **C# scripting interop**. 
+Aver Engine is a custom, high-performance C++ game engine designed for modern systems. It combines a low-level **Direct3D 12** rendering pipeline with a fast, zero-overhead **C# scripting interop** layer.
 
-This repository contains ready-to-run precompiled binaries, engine runtime libraries, and the flagship **First-Person Shooter (FPS) Starter Template**.
-
----
-
-## ⚡ Key Highlights
-
-* **Direct3D 12 Native Backend:** Built ground-up for low-level GPU control, multi-threaded command buffers, and rock-solid frame times.
-* **C# Scripting API:** High-level gameplay code execution driving high-speed C++ engine core abstractions.
-* **FPS Starter Template:** Pre-wired camera systems, real-time input loops, physics collision, and dynamic lighting right out of the box.
-* **Lean & Self-Contained:** Zero bloated third-party middleware setups or invasive engine launchers.
+This repository hosts the compiled engine runtime DLLs, core executables, and D3D12 render pipeline baselines.
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Starter Templates & Quick Start
 
-### 1. Requirements
-* **OS:** Windows 10/11 (64-bit)
-* **GPU:** DirectX 12 compatible (Feature Level 12_0 minimum)
+Project templates and starter setups are maintained in a separate repository to keep your project setups isolated from core runtime updates.
+
+👉 **Get Starter Templates:** [github.com/hydrogen-isotope/Aver-Engine-Templates](https://github.com/hydrogen-isotope/Aver-Engine-Templates)
+
+### How to Run:
+1. Clone or download the starter project from the [Aver-Engine-Templates](https://github.com/hydrogen-isotope/Aver-Engine-Templates) repository.
+2. Download the latest release package from this repository's **Releases** tab.
+3. Place the compiled engine runtime binaries into your template project's `Engine/Binaries/` directory.
+4. Launch `AverEngine.exe` (or your template executable) to start testing.
+
+---
+
+## ⚡ Core Architecture Features
+
+* **Native Direct3D 12 Execution:** Built from the ground up for low-overhead GPU command processing and consistent frame times.
+* **Modern C# Interop:** Write high-level, expressive gameplay logic in C# while the C++ engine core handles raw rendering and hardware execution.
+* **Lean Runtime Footprint:** No bloatware, invasive background services, or required third-party launchers.
+
+---
+
+## 💻 System Requirements
+
+* **OS:** Windows 10 / 11 (64-bit)
+* **GPU:** DirectX 12 compatible (Feature Level 12_0 or higher)
 * **Runtime:** [.NET 8.0 Runtime or newer](https://dotnet.microsoft.com/)
 
-### 2. Quick Run (First-Person Demo)
-1. Download or clone this repository:
-   ```bash
-   git clone [https://github.com/YourUsername/AverEngine-Binaries.git](https://github.com/YourUsername/AverEngine-Binaries.git)
+---
+
+## 🛠️ Feedback & Benchmarking
+
+If you are testing frame times, checking memory allocation, or inspecting D3D12 execution passes:
+
+* Please submit detailed reports on the [GitHub Issues](https://github.com/hydrogen-isotope/Aver-Engine/issues) tab.
+* Include your **GPU model**, **driver version**, and **frame time metrics (ms)** with your feedback.
+
+---
+
+## 📜 License
+Usage of these binaries is governed by the [Aver Engine EULA](LICENSE.md) included in this repository.
