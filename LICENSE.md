@@ -1,6 +1,6 @@
 AVER ENGINE END USER LICENSE AGREEMENT (EULA)
 
-Last Updated: August 2026 — applies to Aver Engine 0.4.0 Beta and later
+Last Updated: August 2026 — applies to Aver Engine 0.5.0 Beta and later
 
 PLEASE READ THIS END USER LICENSE AGREEMENT ("AGREEMENT") CAREFULLY BEFORE DOWNLOADING,
 INSTALLING, OR USING THE AVER ENGINE SOFTWARE, BINARIES, TEMPLATES, AND ASSOCIATED DOCUMENTATION
@@ -23,7 +23,7 @@ passes $50,000,000. Section 3 sets it out with a worked example. Most projects w
 threshold and will owe nothing.
 
 If your situation is not obviously covered below, ask before assuming. Permission is usually
-available and is always cheaper than a dispute.
+available and is always cheaper than a dispute by sending an email or request via other communication methods.
 
 
 ## 1. DEFINITIONS
@@ -271,7 +271,7 @@ USE OR INABILITY TO USE THE SOFTWARE.
 
 This Agreement is effective until terminated. Your rights under this Agreement terminate
 automatically, without notice, if you fail to comply with any of its terms. Upon termination you
-must stop using the Software and destroy the copies in your possession.
+may continue using this software, however you must not redistribute the software to others or make anymore requests for it which include but not limited to bug reports, feature requests, and reports or requests of any kind. 
 
 **Termination does not reach games you have already published.** Copies of Your Game already
 distributed under Section 2 remain licensed, and their end users may keep using them. You may not,
