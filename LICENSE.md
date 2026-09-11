@@ -243,7 +243,7 @@ applies only to what you choose to send; it grants no rights in Your Game.
 
 ## 8. BETA SOFTWARE
 
-Aver Engine 0.4.0 is a **beta release**. It is incomplete, it contains known defects, its file
+Aver Engine 0.x releases are **beta releases**. It is incomplete, it contains known defects, its file
 formats and APIs may change in ways that are not backward compatible, and a future version may
 require work to migrate a project to. Keep your own backups and your own source control. Do not
 rely on it for anything you cannot afford to lose or redo.
